@@ -1,0 +1,223 @@
+═══════════════════════════════════════════════════════════════
+  MONTHSARY WEBSITE - SETUP GUIDE
+═══════════════════════════════════════════════════════════════
+
+Follow these simple steps to set up your romantic website:
+
+═══════════════════════════════════════════════════════════════
+STEP 1: UNDERSTAND THE FILE STRUCTURE
+═══════════════════════════════════════════════════════════════
+
+Your folder should look like this:
+
+monthsary-website/
+│
+├── index.html          ← Main website file
+├── style.css           ← Design and colors
+├── script.js          ← Functionality and settings
+├── README.md          ← Full documentation
+├── SETUP_GUIDE.txt    ← This file
+│
+└── assets/
+    ├── background.jpg              ← ADD YOUR PHOTO HERE
+    ├── README.txt
+    │
+    ├── music/
+    │   ├── our-song.mp3           ← ADD YOUR SONG HERE
+    │   └── album-cover.jpg        ← ADD ALBUM COVER HERE
+    │
+    └── memories/
+        ├── photo1.jpg             ← ADD MEMORY PHOTOS HERE
+        ├── photo2.jpg
+        ├── photo3.jpg
+        ├── photo4.jpg
+        └── photo5.jpg
+
+═══════════════════════════════════════════════════════════════
+STEP 2: ADD YOUR MEDIA FILES
+═══════════════════════════════════════════════════════════════
+
+REQUIRED FILES:
+
+1. assets/background.jpg
+   → Your favorite couple photo
+   → Will appear on the Home screen
+   
+2. assets/music/our-song.mp3
+   → Your special song
+   → Plays automatically after unlock
+   
+3. assets/music/album-cover.jpg
+   → Cover art for the music player
+   → Can be any romantic image
+   
+4. assets/memories/photo1.jpg to photo5.jpg
+   → Your couple photos/memories
+   → Can add more if you want!
+
+═══════════════════════════════════════════════════════════════
+STEP 3: CUSTOMIZE YOUR CONTENT
+═══════════════════════════════════════════════════════════════
+
+Open script.js in a text editor (Notepad, VS Code, etc.)
+
+Find this section at the top:
+
+   const settings = {
+       pin: "123456",              
+       name1: "Your Name",         
+       name2: "My Love",           
+       monthsaryDate: "August 31, 2026",
+       songTitle: "Our Song",
+       albumName: "Our Memories",
+       artist: "Artist Name"
+   };
+
+CHANGE:
+✓ pin → Your secret 6-digit code
+✓ name1 → Your name
+✓ name2 → Your partner's name  
+✓ monthsaryDate → Your monthsary date
+✓ songTitle → Your song title
+✓ albumName → Album name
+✓ artist → Artist name
+
+EXAMPLE:
+   const settings = {
+       pin: "082025",              
+       name1: "James",         
+       name2: "Sarah",           
+       monthsaryDate: "August 20, 2025",
+       songTitle: "Perfect",
+       albumName: "Love Songs",
+       artist: "Ed Sheeran"
+   };
+
+═══════════════════════════════════════════════════════════════
+STEP 4: CUSTOMIZE THE LOVE LETTER
+═══════════════════════════════════════════════════════════════
+
+Open index.html in a text editor
+
+Find: <!-- LETTER SECTION -->
+
+Change the text inside the letter:
+
+   <p class="letter-greeting">Dear My Love,</p>
+   <p class="letter-text">Your message here...</p>
+   
+Write from your heart! ❤️
+
+═══════════════════════════════════════════════════════════════
+STEP 5: ADD MORE PHOTOS (OPTIONAL)
+═══════════════════════════════════════════════════════════════
+
+To add more than 5 photos:
+
+1. Add photo files to assets/memories/
+   Example: photo6.jpg, photo7.jpg, etc.
+
+2. Open script.js
+
+3. Find the "photos" array
+
+4. Add new entries:
+   
+   {
+       filename: "photo6.jpg",
+       title: "Beach Date 🏖️",
+       date: "July 15, 2025"
+   },
+
+═══════════════════════════════════════════════════════════════
+STEP 6: TEST YOUR WEBSITE
+═══════════════════════════════════════════════════════════════
+
+1. Double-click index.html
+   → Opens in your default browser
+
+2. Enter your PIN code
+
+3. Check all sections:
+   ✓ Home - Does your photo appear?
+   ✓ Letter - Is your message showing?
+   ✓ Album - Do all photos load?
+   ✓ Music - Does the song play?
+   ✓ Surprise - Does the popup work?
+
+4. Test on mobile:
+   → Send the folder to your phone
+   → Open index.html in mobile browser
+
+═══════════════════════════════════════════════════════════════
+STEP 7: SHARE WITH YOUR LOVED ONE
+═══════════════════════════════════════════════════════════════
+
+OPTION A: Direct Share
+→ Copy the entire folder to USB/cloud storage
+→ Send to your partner
+→ They open index.html
+
+OPTION B: Host Online (Advanced)
+→ Upload to GitHub Pages / Netlify / Vercel
+→ Share the link
+→ Accessible from anywhere!
+
+═══════════════════════════════════════════════════════════════
+QUICK CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+Before sharing, make sure:
+
+[ ] Background photo added
+[ ] Song file added (MP3 format)
+[ ] Album cover added
+[ ] All memory photos added (at least 5)
+[ ] PIN changed in script.js
+[ ] Names updated in script.js
+[ ] Date updated in script.js
+[ ] Love letter customized in index.html
+[ ] Tested in browser
+[ ] Tested on mobile
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ Music not playing?
+   → Some browsers block autoplay
+   → Music starts after clicking "OPEN ❤️"
+   → Try different browser
+   → Check console (F12) for errors
+
+❌ Photos not showing?
+   → Check file names match exactly
+   → Make sure files are in correct folders
+   → File names are case-sensitive
+
+❌ PIN not working?
+   → Clear browser cache
+   → Check script.js PIN is 6 digits
+   → Refresh page (Ctrl+F5)
+
+❌ Layout broken on mobile?
+   → Clear mobile browser cache
+   → Try different mobile browser
+   → Check if all CSS loaded
+
+═══════════════════════════════════════════════════════════════
+NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+1. Read the full README.md file
+2. Check browser console for errors (Press F12)
+3. Make sure all files are in correct locations
+4. Try opening in a different browser
+
+═══════════════════════════════════════════════════════════════
+
+Happy Monthsary! 🎉❤️
+
+Made with love for celebrating special moments together.
+
+═══════════════════════════════════════════════════════════════

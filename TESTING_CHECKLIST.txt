@@ -1,0 +1,346 @@
+═══════════════════════════════════════════════════════════════
+  MONTHSARY WEBSITE - TESTING CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+Use this checklist to make sure everything works perfectly
+before sharing with your loved one! ❤️
+
+═══════════════════════════════════════════════════════════════
+🔒 PIN LOCK SCREEN
+═══════════════════════════════════════════════════════════════
+
+[ ] Lock screen appears when opening website
+[ ] 6 PIN input boxes are visible
+[ ] Can type numbers in each box
+[ ] Auto-moves to next box when typing
+[ ] Backspace moves to previous box
+[ ] Correct PIN unlocks the website
+[ ] Wrong PIN shows error message
+[ ] Wrong PIN triggers shake animation
+[ ] Error message disappears after 2 seconds
+[ ] PIN boxes clear after wrong entry
+[ ] "OPEN ❤️" button works
+[ ] Music starts after unlocking
+
+═══════════════════════════════════════════════════════════════
+🏠 HOME SECTION
+═══════════════════════════════════════════════════════════════
+
+[ ] Background image displays correctly
+[ ] Background covers full screen
+[ ] Background overlay is visible (darkening effect)
+[ ] "Happy Monthsary ❤️" title appears
+[ ] "Our Little World" subtitle appears
+[ ] Both names display correctly
+[ ] Heart divider between names (💕)
+[ ] Monthsary date displays correctly
+[ ] Romantic message appears
+[ ] Floating hearts are animated
+[ ] Hearts float from bottom to top
+[ ] All text is readable on background
+[ ] Looks good on mobile
+[ ] Looks good on desktop
+
+═══════════════════════════════════════════════════════════════
+💌 LETTER SECTION
+═══════════════════════════════════════════════════════════════
+
+[ ] Letter section opens when clicking icon
+[ ] "A Letter For You 💌" title appears
+[ ] Letter paper/card background is visible
+[ ] "Dear My Love," greeting appears
+[ ] All letter paragraphs are visible
+[ ] Letter text is readable
+[ ] "I love you always. ❤️" appears
+[ ] Signature appears with sender name
+[ ] Letter is centered on screen
+[ ] Letter is scrollable if text is long
+[ ] Background color is soft/romantic
+[ ] Looks good on mobile
+[ ] Looks good on desktop
+
+═══════════════════════════════════════════════════════════════
+📸 ALBUM SECTION
+═══════════════════════════════════════════════════════════════
+
+GALLERY VIEW:
+[ ] Album section opens when clicking icon
+[ ] "Our Memories 📸" title appears
+[ ] All 5 photos display in grid
+[ ] Photos are in Polaroid-style frames
+[ ] Each photo has a title below it
+[ ] Each photo has a date below it
+[ ] Hover effect works on photos
+[ ] Grid adapts to screen size
+[ ] Photos are scrollable if many
+[ ] Page doesn't scroll to other sections
+[ ] Only Album section is visible
+
+LIGHTBOX:
+[ ] Clicking photo opens lightbox
+[ ] Lightbox shows larger photo
+[ ] Photo caption appears below image
+[ ] Photo date appears below caption
+[ ] Close button (✕) is visible
+[ ] Previous button (‹) is visible
+[ ] Next button (›) is visible
+[ ] Close button closes lightbox
+[ ] Previous button goes to previous photo
+[ ] Next button goes to next photo
+[ ] Left arrow key goes to previous photo
+[ ] Right arrow key goes to next photo
+[ ] Escape key closes lightbox
+[ ] Clicking background closes lightbox
+[ ] Zoom-in animation works
+[ ] Lightbox works on mobile
+[ ] Can swipe through photos on mobile
+
+═══════════════════════════════════════════════════════════════
+🎵 MUSIC SECTION
+═══════════════════════════════════════════════════════════════
+
+MUSIC PLAYER:
+[ ] Music section opens when clicking icon
+[ ] "Our Song 🎵" title appears
+[ ] Album cover image displays
+[ ] Album cover is square/centered
+[ ] Song title displays correctly
+[ ] Album name displays correctly
+[ ] Artist name displays correctly
+[ ] Play button (▶️) is visible
+[ ] Play button starts music
+[ ] Play button changes to pause (⏸️)
+[ ] Pause button pauses music
+[ ] Progress bar is visible
+[ ] Progress bar moves with music
+[ ] Current time updates (0:00)
+[ ] Duration time displays correctly
+[ ] Can click progress bar to seek
+[ ] Volume icon (🔊) is visible
+[ ] Volume slider is visible
+[ ] Volume slider changes volume
+[ ] Music continues when switching sections
+[ ] Music doesn't restart when returning
+[ ] Player looks good on mobile
+[ ] Player looks good on desktop
+
+═══════════════════════════════════════════════════════════════
+🎁 SURPRISE SECTION
+═══════════════════════════════════════════════════════════════
+
+SURPRISE PAGE:
+[ ] Surprise section opens when clicking icon
+[ ] "One More Surprise 🎁" title appears
+[ ] Gift box emoji (🎁) is visible
+[ ] Gift box bounces/animates
+[ ] "Open ❤️" button is visible
+[ ] Button has hover effect
+
+SURPRISE POPUP:
+[ ] Clicking "Open ❤️" shows popup
+[ ] Popup appears centered
+[ ] Popup has white background
+[ ] Animated hearts appear at top
+[ ] Hearts pulse/animate
+[ ] Surprise message is visible
+[ ] Message is readable
+[ ] "Close ❤️" button appears
+[ ] Close button dismisses popup
+[ ] Clicking background closes popup
+[ ] Pop-in animation works smoothly
+[ ] Popup works on mobile
+[ ] Popup works on desktop
+
+═══════════════════════════════════════════════════════════════
+🔽 BOTTOM NAVIGATION
+═══════════════════════════════════════════════════════════════
+
+[ ] Navigation bar is fixed at bottom
+[ ] Navigation always visible
+[ ] 5 navigation items present:
+    [ ] 🏠 Home
+    [ ] 💌 Letter
+    [ ] 📸 Album
+    [ ] 🎵 Music
+    [ ] 🎁 Surprise
+[ ] Each icon has label below it
+[ ] Active icon is highlighted (pink)
+[ ] Active icon is larger
+[ ] Clicking icon switches section
+[ ] Only ONE section shows at a time
+[ ] No scrolling between sections
+[ ] Smooth fade transitions
+[ ] Navigation doesn't cover content
+[ ] Navigation has white background
+[ ] Navigation has subtle shadow
+[ ] Rounded top corners
+[ ] Icons are tappable on mobile
+[ ] Icons have hover effect on desktop
+[ ] Navigation adapts to screen size
+
+═══════════════════════════════════════════════════════════════
+📱 RESPONSIVE DESIGN
+═══════════════════════════════════════════════════════════════
+
+MOBILE (PHONE):
+[ ] Website fits screen width
+[ ] No horizontal scrolling
+[ ] No vertical page scrolling
+[ ] Text is readable
+[ ] Buttons are tappable
+[ ] Navigation icons are large enough
+[ ] PIN boxes are easy to tap
+[ ] Photos look good
+[ ] Music player controls work
+[ ] Portrait orientation works
+[ ] Landscape orientation works
+
+TABLET:
+[ ] Layout adapts properly
+[ ] Content is centered
+[ ] Images scale correctly
+[ ] Navigation works well
+[ ] Touch interactions work
+
+DESKTOP:
+[ ] Website is centered
+[ ] Not too wide on large screens
+[ ] All sections look proportional
+[ ] Hover effects work
+[ ] Keyboard navigation works
+[ ] Looks good on 1920x1080
+[ ] Looks good on 1366x768
+
+═══════════════════════════════════════════════════════════════
+🌐 BROWSER COMPATIBILITY
+═══════════════════════════════════════════════════════════════
+
+Test in multiple browsers:
+[ ] Google Chrome
+[ ] Mozilla Firefox
+[ ] Microsoft Edge
+[ ] Safari (Mac/iOS)
+[ ] Opera
+[ ] Mobile browsers (Chrome, Safari)
+
+Check in each browser:
+[ ] PIN lock works
+[ ] Navigation works
+[ ] Music plays
+[ ] Photos load
+[ ] Animations work
+[ ] No console errors (F12)
+
+═══════════════════════════════════════════════════════════════
+⚙️ FUNCTIONALITY CHECKS
+═══════════════════════════════════════════════════════════════
+
+[ ] No JavaScript errors in console (F12)
+[ ] No missing file warnings
+[ ] All images load or show placeholders
+[ ] Music file loads (check Network tab)
+[ ] No broken features
+[ ] All buttons clickable
+[ ] All links work
+[ ] Transitions are smooth
+[ ] Animations don't lag
+[ ] Website loads quickly
+
+═══════════════════════════════════════════════════════════════
+🎨 DESIGN & APPEARANCE
+═══════════════════════════════════════════════════════════════
+
+[ ] Colors are romantic (pink/white)
+[ ] Fonts are readable
+[ ] Spacing looks good
+[ ] Alignment is proper
+[ ] Shadows are subtle
+[ ] Rounded corners are consistent
+[ ] Icons are clear
+[ ] Emojis display correctly
+[ ] Overall aesthetic is romantic
+[ ] Feels like a mobile app
+[ ] Design is cohesive
+
+═══════════════════════════════════════════════════════════════
+📝 CONTENT ACCURACY
+═══════════════════════════════════════════════════════════════
+
+[ ] PIN code is correct
+[ ] Names are spelled correctly
+[ ] Date is correct
+[ ] Song title is correct
+[ ] Artist name is correct
+[ ] Album name is correct
+[ ] Love letter has no typos
+[ ] Photo captions are correct
+[ ] Photo dates are correct
+[ ] Surprise message is correct
+[ ] No placeholder text remains
+
+═══════════════════════════════════════════════════════════════
+🔊 AUDIO FUNCTIONALITY
+═══════════════════════════════════════════════════════════════
+
+[ ] Music file is in correct folder
+[ ] Music file format is .mp3
+[ ] Music plays after unlock
+[ ] Music quality is good
+[ ] Music doesn't distort at high volume
+[ ] No audio glitches
+[ ] Progress bar syncs with audio
+[ ] Time display is accurate
+[ ] Music loops or stops at end
+[ ] Volume control works smoothly
+
+═══════════════════════════════════════════════════════════════
+🖼️ IMAGE QUALITY
+═══════════════════════════════════════════════════════════════
+
+[ ] Background image is high quality
+[ ] Background image isn't pixelated
+[ ] Memory photos are clear
+[ ] Album cover is clear
+[ ] Images load at proper size
+[ ] Images don't distort aspect ratio
+[ ] Images fit in frames properly
+[ ] No broken image icons
+[ ] Placeholders work if image missing
+
+═══════════════════════════════════════════════════════════════
+⚡ PERFORMANCE
+═══════════════════════════════════════════════════════════════
+
+[ ] Website loads in under 3 seconds
+[ ] Section switching is instant
+[ ] Animations are smooth (60fps)
+[ ] No lag when scrolling photos
+[ ] Music loads without delay
+[ ] Images don't slow down page
+[ ] Navigation is responsive
+[ ] No freezing or hanging
+
+═══════════════════════════════════════════════════════════════
+🔐 FINAL CHECKS BEFORE SHARING
+═══════════════════════════════════════════════════════════════
+
+[ ] All placeholder content replaced
+[ ] Custom PIN is set
+[ ] All personal information updated
+[ ] Love letter is personalized
+[ ] All photos are added
+[ ] Song is uploaded
+[ ] Tested on partner's device type
+[ ] Tested with sound on
+[ ] Checked for typos everywhere
+[ ] Preview looks romantic
+[ ] Surprise message is ready
+[ ] Ready to share! ❤️
+
+═══════════════════════════════════════════════════════════════
+
+✅ If everything above is checked, your website is ready!
+
+💝 Time to surprise your loved one! 🎉
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,46 @@
+PLACEHOLDER INFORMATION
+======================
+
+The website has built-in fallback placeholders for missing images!
+
+If you open the website without adding your photos:
+→ Colored placeholder images will appear
+→ With the photo titles displayed
+→ No broken image icons
+
+This means you can:
+1. Test the website immediately
+2. Add photos later
+3. See how everything works first
+
+RECOMMENDED IMAGE SIZES:
+------------------------
+- background.jpg: 1920x1080 or larger
+- album-cover.jpg: 500x500 (square)
+- memory photos: 800x800 or larger (square works best)
+
+SUPPORTED FORMATS:
+------------------
+✓ .jpg / .jpeg
+✓ .png
+✓ .gif
+✓ .webp
+
+MUSIC FILE:
+-----------
+- Format: .mp3
+- Recommended: Under 10MB for faster loading
+- Place in: assets/music/our-song.mp3
+
+HOW TO ADD YOUR FILES:
+----------------------
+Simply replace the placeholder locations with your actual files:
+
+1. Copy your couple photo as: assets/background.jpg
+2. Copy your song as: assets/music/our-song.mp3
+3. Copy album cover as: assets/music/album-cover.jpg
+4. Copy memory photos as: assets/memories/photo1.jpg, photo2.jpg, etc.
+
+The website will automatically detect and use them!
+
+NO CODING REQUIRED - Just replace the files! ❤️

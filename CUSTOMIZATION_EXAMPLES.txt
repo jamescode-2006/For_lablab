@@ -1,0 +1,368 @@
+═══════════════════════════════════════════════════════════════
+  MONTHSARY WEBSITE - CUSTOMIZATION EXAMPLES
+═══════════════════════════════════════════════════════════════
+
+This file shows you EXACTLY how to customize different parts
+of your website with copy-paste examples!
+
+═══════════════════════════════════════════════════════════════
+1. CHANGING THE PIN CODE
+═══════════════════════════════════════════════════════════════
+
+FILE: script.js
+
+FIND THIS:
+----------
+pin: "123456",
+
+CHANGE TO:
+----------
+pin: "082025",     // Your anniversary date
+pin: "143143",     // I Love You code
+pin: "020614",     // Your special date
+pin: "999999",     // Any 6 digits you want!
+
+═══════════════════════════════════════════════════════════════
+2. CHANGING NAMES AND DATE
+═══════════════════════════════════════════════════════════════
+
+FILE: script.js
+
+FIND THIS:
+----------
+name1: "Your Name",
+name2: "My Love",
+monthsaryDate: "August 31, 2026",
+
+CHANGE TO:
+----------
+name1: "James",
+name2: "Sarah",
+monthsaryDate: "February 14, 2025",
+
+OR:
+---
+name1: "Alex",
+name2: "Jordan",
+monthsaryDate: "June 1, 2026",
+
+═══════════════════════════════════════════════════════════════
+3. CHANGING SONG INFORMATION
+═══════════════════════════════════════════════════════════════
+
+FILE: script.js
+
+FIND THIS:
+----------
+songTitle: "Our Song",
+albumName: "Our Memories",
+artist: "Artist Name"
+
+CHANGE TO:
+----------
+songTitle: "Perfect",
+albumName: "÷ (Divide)",
+artist: "Ed Sheeran"
+
+OR:
+---
+songTitle: "All of Me",
+albumName: "Love in the Future",
+artist: "John Legend"
+
+OR:
+---
+songTitle: "A Thousand Years",
+albumName: "The Twilight Saga",
+artist: "Christina Perri"
+
+═══════════════════════════════════════════════════════════════
+4. CUSTOMIZING PHOTO CAPTIONS AND DATES
+═══════════════════════════════════════════════════════════════
+
+FILE: script.js
+
+FIND THIS:
+----------
+photos: [
+    {
+        filename: "photo1.jpg",
+        title: "Our First Date ❤️",
+        date: "August 15, 2025"
+    },
+
+CHANGE TO:
+----------
+photos: [
+    {
+        filename: "photo1.jpg",
+        title: "When We First Met 💕",
+        date: "January 10, 2025"
+    },
+    {
+        filename: "photo2.jpg",
+        title: "Our First Kiss 💋",
+        date: "February 14, 2025"
+    },
+    {
+        filename: "photo3.jpg",
+        title: "Beach Adventure 🏖️",
+        date: "March 20, 2025"
+    },
+
+IDEAS FOR TITLES:
+-----------------
+✓ "Our First Date ❤️"
+✓ "The Day We Met 💕"
+✓ "Best Day Ever 🎉"
+✓ "Forever Together 💑"
+✓ "Our Happy Place 🌟"
+✓ "Making Memories 📸"
+✓ "Adventure Time 🗺️"
+✓ "Silly Moments 😂"
+✓ "Date Night 🌙"
+✓ "Weekend Getaway ✈️"
+
+═══════════════════════════════════════════════════════════════
+5. ADDING MORE PHOTOS (More than 5)
+═══════════════════════════════════════════════════════════════
+
+FILE: script.js
+
+ADD TO THE END OF THE PHOTOS ARRAY:
+------------------------------------
+{
+    filename: "photo6.jpg",
+    title: "Movie Night 🎬",
+    date: "July 4, 2025"
+},
+{
+    filename: "photo7.jpg",
+    title: "Cooking Together 👨‍🍳",
+    date: "July 15, 2025"
+},
+{
+    filename: "photo8.jpg",
+    title: "Sunset Views 🌅",
+    date: "August 1, 2025"
+}
+
+REMEMBER:
+---------
+• Add comma after each entry (except the last one)
+• Match filename with actual file in assets/memories/
+• Keep same format for consistency
+
+═══════════════════════════════════════════════════════════════
+6. CUSTOMIZING THE LOVE LETTER
+═══════════════════════════════════════════════════════════════
+
+FILE: index.html
+
+FIND: <!-- LETTER SECTION -->
+
+EXAMPLE 1 - SHORT AND SWEET:
+----------------------------
+<p class="letter-greeting">Dear My Beautiful Love,</p>
+<p class="letter-text">Every day with you feels like a dream come true.</p>
+<p class="letter-text">Thank you for being my everything.</p>
+<p class="letter-closing">I love you more than words can say. ❤️</p>
+<p class="letter-signature">Forever yours,<br><span id="senderName">Your Name</span></p>
+
+EXAMPLE 2 - LONGER MESSAGE:
+---------------------------
+<p class="letter-greeting">My Dearest Love,</p>
+<p class="letter-text">From the moment I met you, I knew my life would never be the same. You brought light into my world and joy into my heart.</p>
+<p class="letter-text">Thank you for every laugh, every hug, every moment we've shared together. You make even the ordinary days feel extraordinary.</p>
+<p class="letter-text">I am so grateful to have you by my side, and I look forward to every memory we will create together.</p>
+<p class="letter-text">You are my best friend, my partner, and my greatest love.</p>
+<p class="letter-closing">I love you today and always. ❤️</p>
+<p class="letter-signature">With all my heart,<br><span id="senderName">Your Name</span></p>
+
+EXAMPLE 3 - FUNNY AND CUTE:
+---------------------------
+<p class="letter-greeting">Hey You! 😊</p>
+<p class="letter-text">You're stuck with me now! No refunds, no exchanges! 😂</p>
+<p class="letter-text">But seriously, thank you for putting up with my weird jokes, my random songs, and my midnight snack raids.</p>
+<p class="letter-text">You make every day better just by being you.</p>
+<p class="letter-closing">I love you to the moon and back! 🌙❤️</p>
+<p class="letter-signature">Your favorite person,<br><span id="senderName">Your Name</span></p>
+
+═══════════════════════════════════════════════════════════════
+7. CUSTOMIZING THE SURPRISE MESSAGE
+═══════════════════════════════════════════════════════════════
+
+FILE: index.html
+
+FIND: <!-- SURPRISE POPUP -->
+
+THEN FIND:
+----------
+<p class="popup-message">No matter how many months pass, I will always choose you. ❤️</p>
+
+CHANGE TO:
+----------
+<p class="popup-message">You are my today and all of my tomorrows. ❤️</p>
+
+OR:
+---
+<p class="popup-message">Thank you for being my partner, my love, and my best friend. Here's to many more months together! 🎉❤️</p>
+
+OR:
+---
+<p class="popup-message">I fall in love with you more every single day. Happy Monthsary, my love! 💕</p>
+
+OR:
+---
+<p class="popup-message">One month down, forever to go! I love you more than you'll ever know. ❤️</p>
+
+MORE IDEAS:
+-----------
+✓ "Every moment with you is a treasure. ❤️"
+✓ "You're my favorite person in the whole world! 🌍💕"
+✓ "Thanks for being weird with me! 😂❤️"
+✓ "My love for you grows stronger every day. 💖"
+✓ "You + Me = Forever ❤️"
+
+═══════════════════════════════════════════════════════════════
+8. CHANGING THE HOME MESSAGE
+═══════════════════════════════════════════════════════════════
+
+FILE: index.html
+
+FIND: <p class="home-message">
+
+CURRENT:
+--------
+<p class="home-message">Every moment with you is a memory I want to keep forever. ❤️</p>
+
+CHANGE TO:
+----------
+<p class="home-message">You are my greatest adventure and my favorite love story. ❤️</p>
+
+OR:
+---
+<p class="home-message">Together is my favorite place to be. 💕</p>
+
+OR:
+---
+<p class="home-message">Thank you for making every day feel like a celebration. ❤️</p>
+
+═══════════════════════════════════════════════════════════════
+9. CHANGING COLORS (ADVANCED)
+═══════════════════════════════════════════════════════════════
+
+FILE: style.css
+
+TO CHANGE MAIN PINK COLOR:
+--------------------------
+FIND: #ff6b9d
+REPLACE WITH:
+→ #ff1493 (Deeper pink)
+→ #ff69b4 (Hot pink)
+→ #ffc0cb (Light pink)
+→ #ff89a9 (Soft pink)
+→ #c71585 (Medium violet red)
+
+TO CHANGE BACKGROUND GRADIENTS:
+--------------------------------
+FIND: linear-gradient(135deg, #ff6b9d 0%, #ffa8c5 100%)
+CHANGE THE COLOR CODES
+
+BLUE THEME EXAMPLE:
+-------------------
+#ff6b9d → #4a90e2 (Blue)
+#ffa8c5 → #89b9e8 (Light blue)
+
+PURPLE THEME EXAMPLE:
+---------------------
+#ff6b9d → #9b59b6 (Purple)
+#ffa8c5 → #c39bd3 (Light purple)
+
+RED THEME EXAMPLE:
+------------------
+#ff6b9d → #e74c3c (Red)
+#ffa8c5 → #ec7063 (Light red)
+
+═══════════════════════════════════════════════════════════════
+10. CHANGING EMOJIS
+═══════════════════════════════════════════════════════════════
+
+You can change emojis anywhere in index.html or script.js!
+
+NAVIGATION ICONS (index.html):
+-------------------------------
+Current: 🏠 💌 📸 🎵 🎁
+Change to: 🏡 💝 📷 🎶 🎀
+
+SECTION TITLES (index.html):
+----------------------------
+Current: "Happy Monthsary ❤️"
+Change to: "Happy Monthsary 💕"
+          "Happy Monthsary 💖"
+          "Happy Monthsary 💝"
+
+HEART OPTIONS:
+--------------
+❤️ ♥️ 💕 💖 💗 💓 💝 💞 💟 ❣️
+
+ROMANTIC EMOJIS:
+----------------
+😍 😘 🥰 😻 💑 💏 👩‍❤️‍👨 💐 🌹 🌺 💒 ✨ 🎊 🎉 🎈
+
+═══════════════════════════════════════════════════════════════
+11. REAL-WORLD COMPLETE EXAMPLE
+═══════════════════════════════════════════════════════════════
+
+Here's a complete settings example for a couple:
+James and Emma, together since February 14, 2025
+
+IN script.js:
+-------------
+const settings = {
+    pin: "021425",
+    name1: "James",
+    name2: "Emma",
+    monthsaryDate: "March 14, 2025",
+    songTitle: "Thinking Out Loud",
+    albumName: "X",
+    artist: "Ed Sheeran",
+    
+    photos: [
+        {
+            filename: "photo1.jpg",
+            title: "Our First Valentine's Date 💝",
+            date: "February 14, 2025"
+        },
+        {
+            filename: "photo2.jpg",
+            title: "Coffee Shop Mornings ☕",
+            date: "February 20, 2025"
+        },
+        {
+            filename: "photo3.jpg",
+            title: "Weekend in the City 🌆",
+            date: "February 27, 2025"
+        },
+        {
+            filename: "photo4.jpg",
+            title: "Movie Night at Home 🎬",
+            date: "March 5, 2025"
+        },
+        {
+            filename: "photo5.jpg",
+            title: "Park Picnic 🧺",
+            date: "March 12, 2025"
+        }
+    ]
+};
+
+═══════════════════════════════════════════════════════════════
+
+📝 TIP: Always save your files after making changes!
+
+🔄 TIP: Refresh your browser (Ctrl+F5 or Cmd+Shift+R) to see changes!
+
+❤️ TIP: Test everything before sharing with your loved one!
+
+═══════════════════════════════════════════════════════════════
